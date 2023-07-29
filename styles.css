@@ -3,14 +3,13 @@ body {
     background-color: black;
     font-family: Arial, sans-serif;
     color: white;
-    display: flex; /* Використовуємо flexbox для центрування по вертикалі */
-    justify-content: center; /* Центруємо елементи по горизонталі */
-    align-items: center; /* Центруємо елементи по вертикалі */
-    height: 100vh; /* Задаємо висоту контейнера на весь екран */
-    margin: 0; /* Забираємо зовнішні відступи для body */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
 }
 
-/* Стилі для парольної форми */
 .password-form {
-    text-align: center; /* Центруємо елементи по горизонталі */
+    text-align: center;
 }
