@@ -2,13 +2,34 @@
 <html>
 <head>
     <title>My Protected Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My Protected Page!</h1>
-    <input type="password" id="passwordInput" placeholder="Enter Password">
-    <button onclick="checkPassword()">Submit</button>
-    <p id="message"></p>
+    <div class="container">
+        <header>
+            <audio controls autoplay>
+                <source src="G.T.mp3" type="audio/mpeg">
+                Ваш браузер не підтримує аудіо елемент.
+            </audio>
+            <img src="gaster_face.png" class="image" width="350" height="550">
+            <div class="text-container">
+                <div class="note-number">
+                    note_№?
+                </div>
+                <div class="text-box">
+                    <h1>✋ 🕈✋☹☹ 💣✌😐☜ ✋❄ 👌☜☞⚐☼☜ ❄☟☜ 👍☟✌☼✌ 👎✋☜💧<br>
+                    ✋ 🕈✋☹☹....</h1>
+                </div>
+                <!-- Форма для пароля -->
+                <div class="password-form">
+                    <input type="password" id="password" placeholder="Введіть пароль">
+                    <button onclick="checkPassword()">Увійти</button>
+                </div>
+            </div>
+        </header>
+    </div>
 
+    <!-- JavaScript код для перевірки пароля -->
     <script src="script.js"></script>
 </body>
 </html>
