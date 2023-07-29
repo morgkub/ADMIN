@@ -7,10 +7,12 @@
 <body>
     <div class="container">
         <header>
-            <input type="password" id="password" class="password-input">
+            <form onsubmit="checkPassword(event)">
+                <input type="password" id="password" class="password-input">
+                <input type="submit" value="Submit">
+            </form>
         </header>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
-
