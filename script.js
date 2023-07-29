@@ -1,13 +1,12 @@
 function checkPassword(event) {
-    event.preventDefault(); // Заборонити стандартну дію форми (відправку)
+    event.preventDefault(); 
 
     const enteredPassword = document.getElementById("password").value;
-    const correctPassword = "your_password_here"; // Ваш реальний пароль
+    const correctPassword = "66funvalue"; 
 
     if (enteredPassword === correctPassword) {
-        // Якщо пароль правильний, перенаправити користувача на інший сайт
-        window.location.href = "https://www.example.com"; // Ваш URL
+        window.location.href = "https://morgkub.github.io/Gaster_Note/"; 
     } else {
-        alert("Неправильний пароль. Спробуйте ще раз.");
+        alert("Wrong password. Try again.");
     }
 }
