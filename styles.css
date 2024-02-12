@@ -27,7 +27,7 @@ form {
 input[type="submit"] {
     background-color: white; /* Білий фон */
     color: black; /* Чорний текст */
-    border: none; /* Відсутність рамки */
+    border:  2px solid white; /* Відсутність рамки */
     padding: 10px 20px; /* Відступи */
     cursor: pointer; /* Змінний покажчик */
 }
