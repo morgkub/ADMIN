@@ -25,8 +25,8 @@ form {
 
 /* Стилі для кнопки "Submit" */
 input[type="submit"] {
-    background-color: white; /* Білий фон */
-    color: black; /* Чорний текст */
+    background-color: black; /* Білий фон */
+    color: white; /* Чорний текст */
     border:  2px solid white; /* Відсутність рамки */
     padding: 10px 20px; /* Відступи */
     cursor: pointer; /* Змінний покажчик */
